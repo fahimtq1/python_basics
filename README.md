@@ -22,6 +22,7 @@
 
 # Learning about Python variables
 
+```{python}
 print("Hello World")   # testing PyCharm
 
 '''
@@ -36,7 +37,6 @@ Types of variables:
 - string
 '''
 
-```{python}
 # Example variables with input()
 print("Welcome!")
 
@@ -69,4 +69,4 @@ print("Please enter your salary")
 salary = float(input())
 print(salary)
 print(type(salary))
-'''
+```
