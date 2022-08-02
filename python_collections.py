@@ -25,3 +25,28 @@ print(len(coordinates))
 print(type(coordinates))
 
 # Dictionaries
+devops_student_1 = {
+    "key" : "value",
+    "name" : "James",
+    "stream" : "tech",
+    "completed_lessons" : 3,   # dictionary storing different data types
+    "completed_lessons_names" : ["lists", "operations", "builtin methods"]   # dictionary storing different collection types
+}
+
+print(devops_student_1)
+print(len(devops_student_1))   # returns the number of key:value pairs
+print(type(devops_student_1))
+print(devops_student_1["completed_lessons_names"])   # calling the name key to show to corresponding value
+print(devops_student_1.keys())   # return the dictionary keys
+print(devops_student_1.values())   # return the dictionary values
+
+## How to change completed_lessons from 3 to 2
+devops_student_1["completed_lessons"] = 2
+
+## Dictionary delete items
+del devops_student_1["stream"]   # deletes an item from the dictionary using the key "stream"
+devops_student_1.clear()   # clears all the items in a dictionary
+devops_student_1.pop("stream")   # method that deletes an item from the dictionary using the key "stream"
+devops_student_1.popitem()   # method that removes the last item in a dictionary
+
+
