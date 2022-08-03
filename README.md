@@ -157,6 +157,11 @@ They can be used to:
 - Not repeat yourself
 - Iterate through data collections
 
+### Functions
+
+- A function is a block of code that only runs after it has been called. 
+- Functions are needed to make code readable and the script more efficient.
+- DRY - Don't Repeat Yourself
 
 
 
