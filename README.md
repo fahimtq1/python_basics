@@ -124,8 +124,38 @@ devops_student_1.pop("stream")   # method that deletes an item from the dictiona
 devops_student_1.popitem()   # method that removes the last item in a dictionary
 ```
 
+## Control flow 
 
+The control flow refers to order in which the code executes. 
 
+### if, elif, else 
+
+The following conditional statements are used to in the Python control flow:
+- ```if```
+- ```else```
+- ```elif```
+
+if, elif, else examples:
+
+The following is an example of a simple control flow using Python's conditional statements:
+
+```python
+weather = "sunny"
+if weather == "sunny":   # True or False will determine the command that is run
+    print("Let's do a BBQ")
+elif weather == "dry"
+    print("Getting there")
+else:
+    print("Hope for the best")
+```
+
+### Loops
+
+There are two types of loops: for loops and while loops.
+
+They can be used to:
+- Not repeat yourself
+- Iterate through data collections
 
 
 

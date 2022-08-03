@@ -49,4 +49,14 @@ devops_student_1.clear()   # clears all the items in a dictionary
 devops_student_1.pop("stream")   # method that deletes an item from the dictionary using the key "stream"
 devops_student_1.popitem()   # method that removes the last item in a dictionary
 
+# Control flow
+weather = "sunny"
+if weather == "sunny":   # True or False will determine the command that is run
+    print("Let's do a BBQ")
+elif weather == "dry":
+    print("Getting there")
+else:
+    print("Hope for the best")
+
+
 
